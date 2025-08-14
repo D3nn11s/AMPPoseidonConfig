@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "DisplayName": "Max RAM (GB)",
+    "Category": "Resources",
+    "Subcategory": "Memory",
+    "Description": "Maximum RAM allocated to the server (in GB)",
+    "Keywords": "ram,memory,max",
+    "FieldName": "maxram",
+    "InputType": "number",
+    "ParamFieldName": "maxram",
+    "DefaultValue": "8",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Min RAM (GB)",
+    "Category": "Resources",
+    "Subcategory": "Memory",
+    "Description": "Minimum RAM allocated to the server (in GB)",
+    "Keywords": "ram,memory,min",
+    "FieldName": "minram",
+    "InputType": "number",
+    "ParamFieldName": "minram",
+    "DefaultValue": "2",
+    "EnumValues": {}
+  }
+]
